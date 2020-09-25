@@ -1,0 +1,17 @@
+Rakenne: Joka viikko tulee uusi tehtäväsetti Plussaan
+        joukossa on alkeis-, perus-, ja projektitehtäviä, joista saa eri määriä pisteitä
+        Tehtäväsetin palautus on perjantaisin johonkin aikaan ja maanantaihin asti myöhästyneistä saa 30% sakkoa
+        Ohjattua harjoiittelua kooditoriossa ja discordissa
+        Projekteja eli isompia töitä 5 kappaletta
+
+Arvostelu: Kurssin läpäisy:
+                            Alkeis- ja Perustentit 250p
+                            Projektit 150p
+                            Hyväksytty tentti
+
+            Jotta pääsee ohjelmointi 2.:
+                                        Tehtävä osaamistason laaja-tentti
+                                        Arvosanan tulee olla vähintään 3
+                                        Alkeis- ja peruspisteitä 450
+                                        Projektipisteitä väh 250
+                                        
