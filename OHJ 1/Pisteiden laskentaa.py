@@ -4,6 +4,7 @@ Tekijä: Pyry Laine
 Opiskelijanumeroni: 050282836
 """
 def main():
+    #syötä game.txt tiedoston nimi
     piste = input("Enter the name of the score file: ")
     tulokset = {}
 
