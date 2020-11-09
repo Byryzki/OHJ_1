@@ -162,10 +162,11 @@ def add_friendship(network, name1, name2):
     # functions who call this function) already make sure that names only
     # contain letters.  It won't hurt anything to keep this check here
     # anyway, just in case.
-    for name in [ name1, name2 ]:
+    for name in [name1, name2]:
         if not name.isalpha():
-            print("Error: '{name}' is not a valid name: friendship not added.")
+            print(f"Error: '{name}' is not a valid name: friendship not added.")
             return
+
     # TODO: Implement a sanity check here to make sure no one
     #       can be added as his or her own friend.
     if name1 == name2:
@@ -360,6 +361,7 @@ def common_friends_command(network, namelist):
     #       be printed in the following format:
     if name1 == name2:
         print(f"{name1} has no common friends with him/herself.")
+        return
 
     # TODO: Find the common friends of <name1> and <name2>
     #       and print them on the screen in an alphabetical order.
