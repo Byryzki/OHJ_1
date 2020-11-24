@@ -1,11 +1,12 @@
-luvut = open("murto", "r")
-t = []
-nimi = []
-eka = []
-toka = []
-for rivi in luvut:
-    nimi = rivi[0]
-    a = int(rivi[2])
-    b = int(rivi[4])
-    print(nimi, a, b)
-    #murtod[nimi] = (Fraction(a, b))
+dict = {}
+
+nimi = "accessinfo.txt"
+file = open(nimi, "r")
+
+for rivi in file:
+    id, name, access = rivi.split(";")
+    dict[id] = name, access
+
+tieto = list(dict.values())[0]
+
+print(tieto[0])
