@@ -4,7 +4,9 @@ Tekijä: Pyry Laine
 Opiskelijanumeroni: 050282836
 """
 def main():
-    english_spanish = {"hey": "hola", "thanks": "gracias", "home": "casa"}
+    english_spanish = {"hey": "hola",
+                       "thanks": "gracias",
+                       "home": "casa"}
 
     print("Dictionary contents:")
     dict = []
